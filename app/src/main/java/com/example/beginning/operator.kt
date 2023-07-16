@@ -42,7 +42,7 @@ fun main(){
         println("The user is active")
     }else{
         println("The user is not active")
-    }*/
+    }
     val myNumber = 150
     if (myNumber < 150){
         println("less than 150")
@@ -56,6 +56,7 @@ fun main(){
         println("The user is active")
     }else{
         println("The user is not active")
-    }
+    }*/
+
 
 }
