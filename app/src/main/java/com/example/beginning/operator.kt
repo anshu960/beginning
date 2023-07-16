@@ -58,5 +58,12 @@ fun main(){
         println("The user is not active")
     }*/
 
+    val isPlaying = true
+    val score = 100
+    if (isPlaying && score == 100){
+        println("Next level Opened")
+    }else{
+        println("Still at the same level")
+    }
 
 }
