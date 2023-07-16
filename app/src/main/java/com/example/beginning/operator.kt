@@ -43,11 +43,11 @@ fun main(){
     }else{
         println("The user is not active")
     }*/
-    val myNumber = 100
-    if (myNumber > 150){
-        println("Greater than 150")
-    }else if (myNumber > 90){
-        println("Greater than 90")
+    val myNumber = 150
+    if (myNumber < 150){
+        println("less than 150")
+    }else if (myNumber >= 150){
+        println("Greater than or equal to 150")
     }else{
         println("All the conditions failed")
     }
