@@ -67,14 +67,12 @@ fun main() {
     // }
     val num1 = 5
     val num2 = -4
-    val text = if (num1 > 0 || num2 > 0)
+    if (num1 > 0 || num2 > 0) {
+        println("This conditions is true")
+        println("This condition is true and some text")
+    } else {
+          println("This condition is false")
+          println("This condition is false and some text")
 
-    // println("The condition is true")
-        "This is text 1"
-    else
-    //  println("The condition is false")
-        "This is text 2"
-
-    println("$text")
-
+    }
 }
