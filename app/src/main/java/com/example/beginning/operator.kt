@@ -51,5 +51,11 @@ fun main(){
     }else{
         println("All the conditions failed")
     }
+    val isActive = false
+    if (!isActive){
+        println("The user is active")
+    }else{
+        println("The user is not active")
+    }
 
 }
