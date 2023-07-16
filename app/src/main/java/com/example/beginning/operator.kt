@@ -37,9 +37,11 @@ fun main(){
     println("x = ${x--}")
     println("x = ${--x}")
 
-    val isActive = true
+    val isActive = false
     if (isActive == true){
         println("The user is active")
+    }else{
+        println("The user is not active")
     }
 
 }
