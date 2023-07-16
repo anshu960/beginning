@@ -1,6 +1,6 @@
 fun main(){
-    val x = 5
-    val y = 3
+    var x = 5
+    var y = 3
 
    // val result = x + y
    // println("result = $result")
@@ -26,4 +26,16 @@ fun main(){
 
     result %= 2
     println("result = $result")
+
+    println("3 + 3 * 4 = ${3 + 3 * 4}")
+    println("(3 + 3) * 4 = ${(3 + 3) * 4}")
+
+    x = 0
+    println("x = ${x++}")
+    println("x = ${++x}")
+
+    println("x = ${x--}")
+    println("x = ${--x}")
+
+
 }
