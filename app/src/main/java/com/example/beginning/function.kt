@@ -25,11 +25,23 @@ fun main() {
 
    val get = getMaxim(15,25)
     println(get)
+    val min = getMax(5,19,12)
+    println(min)
 }
 
 fun getMax(a: Int, b: Int): Int {
     val max = if (a > b) a else b
   return max
+}
+fun getMax(a: Double, b: Double) = if (a > b) a else b
+fun getMax(a: Int, b: Int, c: Int): Int {
+    return if (a >= b && a >= c){
+        a
+    } else if (b >= a && b >= c){
+        b
+    }else{
+        c
+    }
 }
 fun getMaxim(a: Int, b: Int): Int{
     if (a>b){
