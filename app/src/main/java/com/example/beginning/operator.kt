@@ -9,7 +9,7 @@ fun main(){
     println("x * y = ${x*y}")
     println("x / y = ${x/y}")
     println("x % y = ${x%y}")
-
+    sayHello("Nisha",30)
     var result = x + y
 
     result += 2
